@@ -1,0 +1,10 @@
+{% extends "users/layout.html" %}
+{% block body %}
+<form action="/create" method="post">
+    <label for="username">username</label><br/>
+    <input typr="text" name="username" ><br/>
+    <label for="email">email</label><br/>
+    <input typr="text" name="email" ><br/>
+    <input type="submit" value="submit">
+</form>
+{% endblock %}
